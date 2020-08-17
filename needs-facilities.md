@@ -2,12 +2,12 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given
-  When
-  Then
+  Given the camera installed at the game to count the head counts
+  When the visitors come
+  Then their head counts are noted which will tell the trends.
 
 Scenario: Alert when seating capacity is full
 
-  Given
-  When
-  Then
+  Given the seating hall with eequal tokens
+  When someone comes token is given
+  Then the tokens left will tell the hall in full or empty.
