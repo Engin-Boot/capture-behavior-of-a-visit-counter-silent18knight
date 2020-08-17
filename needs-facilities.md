@@ -9,5 +9,5 @@ Scenario: Report visitor trends during a week of operation
 Scenario: Alert when seating capacity is full
 
 Given the seating hall with equal tokens
-When someone comes token is given
+When someone enters gets the token
 Then the tokens left will tell the hall in full or empty.
