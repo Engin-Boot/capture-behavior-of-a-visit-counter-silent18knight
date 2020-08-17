@@ -3,8 +3,8 @@
 Scenario: Show patient visits during working days and holidays
 
   Given the staff at the hospital gate
-  When someone enters the gate the unique ID's are provided to them
-  Then finally counting the IDs will tell the number.
+  When people enter they get unique ID's 
+  Then counting the IDs will tell the number.
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
