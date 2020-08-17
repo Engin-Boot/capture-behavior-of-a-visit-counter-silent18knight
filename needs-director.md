@@ -8,6 +8,6 @@ Scenario: Show patient visits during working days and holidays
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
-  Given the parking area with watchman carrying the tokens equal parking slots  
+  Given the parking area with watchman carrying the tokens equal to parking slots  
   When a car comes the token allocates and reserves the place
   Then the remaining tokens will tell the number of remaining parking slots.
