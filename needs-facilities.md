@@ -4,7 +4,7 @@ Scenario: Report visitor trends during a week of operation
 
   Given the camera installed at the game to count the head counts
   When the visitors come
-  Then their head counts are noted which will tell the trends.
+  Then number of head counts which will tell the trends.
 
 Scenario: Alert when seating capacity is full
 
